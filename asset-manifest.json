@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/Educase/static/js/main.d91e0103.chunk.js",
-    "main.js.map": "/Educase/static/js/main.d91e0103.chunk.js.map",
+    "main.js": "/Educase/static/js/main.af6c0f3f.chunk.js",
+    "main.js.map": "/Educase/static/js/main.af6c0f3f.chunk.js.map",
     "runtime~main.js": "/Educase/static/js/runtime~main.29a822fb.js",
     "runtime~main.js.map": "/Educase/static/js/runtime~main.29a822fb.js.map",
-    "static/js/2.cbbecb5c.chunk.js": "/Educase/static/js/2.cbbecb5c.chunk.js",
-    "static/js/2.cbbecb5c.chunk.js.map": "/Educase/static/js/2.cbbecb5c.chunk.js.map",
+    "static/js/2.8a68d9ab.chunk.js": "/Educase/static/js/2.8a68d9ab.chunk.js",
+    "static/js/2.8a68d9ab.chunk.js.map": "/Educase/static/js/2.8a68d9ab.chunk.js.map",
     "index.html": "/Educase/index.html",
-    "precache-manifest.627e06bb003045e46afe61eff8fe6b17.js": "/Educase/precache-manifest.627e06bb003045e46afe61eff8fe6b17.js",
+    "precache-manifest.e712dbcd55fe7ba0c9f3211c6b6a2a03.js": "/Educase/precache-manifest.e712dbcd55fe7ba0c9f3211c6b6a2a03.js",
     "service-worker.js": "/Educase/service-worker.js"
   }
 }
