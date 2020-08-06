@@ -28,7 +28,7 @@ class RootNavigator extends Component {
     return (
       <>
      
-     <Router >
+     <Router basename={window.location.pathname || ''}>
       
          <Switch>
            <Route exact path='/' component={Home} />
