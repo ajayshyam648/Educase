@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/Educase/static/js/main.9f12fff0.chunk.js",
-    "main.js.map": "/Educase/static/js/main.9f12fff0.chunk.js.map",
+    "main.js": "/Educase/static/js/main.acbe23d7.chunk.js",
+    "main.js.map": "/Educase/static/js/main.acbe23d7.chunk.js.map",
     "runtime~main.js": "/Educase/static/js/runtime~main.29a822fb.js",
     "runtime~main.js.map": "/Educase/static/js/runtime~main.29a822fb.js.map",
     "static/js/2.d24d8790.chunk.js": "/Educase/static/js/2.d24d8790.chunk.js",
     "static/js/2.d24d8790.chunk.js.map": "/Educase/static/js/2.d24d8790.chunk.js.map",
     "index.html": "/Educase/index.html",
-    "precache-manifest.098fb36cb8c73e244d2d58e0dd4e4f94.js": "/Educase/precache-manifest.098fb36cb8c73e244d2d58e0dd4e4f94.js",
+    "precache-manifest.30c1b0014eb67f2d1bf482676fa10c6e.js": "/Educase/precache-manifest.30c1b0014eb67f2d1bf482676fa10c6e.js",
     "service-worker.js": "/Educase/service-worker.js"
   }
 }
