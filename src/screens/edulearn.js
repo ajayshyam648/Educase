@@ -122,10 +122,11 @@ class EduLearn extends Component {
           const options2 = {
             items: 1,
             nav: true,
-            rewind: false,
-            dots: false,
+            dots: true,
             navText : false,
-            autoplay: true
+            autoplay: true,
+            loop: true,
+            autoplayTimeout: 2000,
           };
     
           return (

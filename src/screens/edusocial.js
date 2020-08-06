@@ -90,28 +90,6 @@ class EduSocial extends Component {
       
           };
       
-          const options = {
-            smartSpeed : 450,
-            nav : true,
-            loop  : true,
-            autoplay: true,
-            autoplayTimeout: 3000,
-            /*navText : false,*/
-            margin: 30,
-            lazyLoad: true,
-            /*responsiveClass:true,*/
-            responsive : {
-              0:{
-                items:1
-              },
-              481:{
-                items:2
-              },
-              992:{
-                items:3
-              }
-            }
-          };
       
           const events = {
             onDragged: function(event) {},
@@ -121,10 +99,11 @@ class EduSocial extends Component {
           const options2 = {
             items: 1,
             nav: true,
-            rewind: false,
-            dots: false,
+            dots: true,
             navText : false,
-            autoplay: true
+            autoplay: true,
+            loop: true,
+            autoplayTimeout: 2000,
           };
     
           return (

@@ -127,12 +127,35 @@ class Home extends Component {
       const options2 = {
         items: 1,
         nav: true,
-        rewind: false,
-        dots: false,
+        dots: true,
         navText : false,
-        autoplay: true
+        autoplay: true,
+        loop: true,
+        autoplayTimeout: 2000,
       };
-
+      const options3 = {
+        items: 4,
+        nav: true,
+        dots: true,
+        navText : false,
+        autoplay: true,
+        loop: true,
+        autoplayTimeout: 2000,
+        responsive : {
+          0:{
+            items:1
+          },
+          481:{
+            items:2
+          },
+          786:{
+            items:3
+          },
+          992:{
+            items:4
+          }
+        }
+      };
       return (
         <div>
           <Header />
@@ -233,7 +256,7 @@ class Home extends Component {
               <div className="sec-title center">
                 <h2>Our Clientele</h2>
               </div>
-              <div className="clients-carousel owl-carousel owl-theme">
+              <OwlCarousel ref="car" className="owl-carousel" options={options3} events={events} >
                 <figure className="image-box"><a href="#"><img src="images/clients/logo (4).png" alt="" /></a></figure>
                 <figure className="image-box"><a href="#"><img src="images/clients/logo (2).png" alt="" /></a></figure>
                 <figure className="image-box"><a href="#"><img src="images/clients/client-1.png" alt="" /></a></figure>
@@ -242,7 +265,7 @@ class Home extends Component {
                 <figure className="image-box"><a href="#"><img src="images/clients/client-5.png" alt="" /></a></figure>
                 <figure className="image-box"><a href="#"><img src="images/clients/logokid.jpg" alt="" /></a></figure>
                 <figure className="image-box"><a href="#"><img src="images/clients/LogoMil.jpg" alt="" /></a></figure>
-              </div>
+              </OwlCarousel>
             </div>
           </section>
           {/* clients-section end */}
@@ -334,7 +357,7 @@ class Home extends Component {
                 <h2>Our Case Studies</h2>
                 <p>The full monty burke posh excuse my French Richard cheeky bobby spiffing crikey<br />Why gormless, pear shaped.!</p>
               </div>
-              <div className="four-item-carousel-2 owl-carousel owl-theme">
+              <OwlCarousel ref="car" className="owl-carousel" options={options3} events={events} >
                 <div className="case-block-one">
                   <div className="inner-box">
                     <div className="image-box">
@@ -515,7 +538,7 @@ class Home extends Component {
                     </div>
                   </div>
                 </div>
-              </div>
+              </OwlCarousel>
             </div>
           </section>
           {/* case-studies end */}
