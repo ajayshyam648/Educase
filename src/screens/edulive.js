@@ -128,6 +128,30 @@ class EduLive extends Component {
             autoplayTimeout: 2000,
           };
     
+          const options3 = {
+            items: 4,
+            nav: true,
+            dots: true,
+            navText : false,
+            autoplay: true,
+            loop: true,
+            autoplayTimeout: 2000,
+            responsive : {
+              0:{
+                items:1
+              },
+              481:{
+                items:2
+              },
+              786:{
+                items:3
+              },
+              992:{
+                items:4
+              }
+            }
+          };
+
           return (
             <div>
              <Header />
@@ -159,7 +183,7 @@ class EduLive extends Component {
       <h2>Our Awesome Features</h2>
     </div>
     <div className="inner-content">
-      <div className="four-item-carousel owl-carousel owl-theme">
+    <OwlCarousel ref="car" className="owl-carousel" options={options3} events={events} >
         <div className="feature-block-two">
           <div className="inner-box">
             <div className="icon-box"><i className="flaticon-graph" /></div>
@@ -241,7 +265,7 @@ class EduLive extends Component {
           </div>
         </div>
        
-      </div>
+      </OwlCarousel>
     </div>
   </div>
 </section>
